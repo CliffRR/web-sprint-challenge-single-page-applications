@@ -155,7 +155,7 @@ const PizzaForm = (props) => {
                         value = {form.specialInstructions}
                     />
                 </label>          
-                <button disabled = {disabled} type ="submit">Add to Order</button>      
+                <button id = "order-button" disabled = {disabled} type ="submit">Add to Order</button>      
             </form>
 
         </div>
